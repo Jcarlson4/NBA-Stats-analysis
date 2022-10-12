@@ -2,7 +2,6 @@
 # Overview
 A program written to insert data from a CSV file containing Stats from the last NBA playoffs and to pull that data to answer some questions about the stats.
 
-
 The data set that I used for this program was an NBA stats excel file which I converted into a CSV. 
 
 Here is the Link to that file, 
@@ -15,11 +14,14 @@ https://youtu.be/aCBeF8IeOWE
 
 # Data Analysis Results
 
-WHo was the player that averaged the most points during the playoffs? 
+Who was the player that averaged the most points during the playoffs? 
 That player was Luka Doncic of the Dallas Mavericks at 33 ppg
 
 WHo was the player that had the most usage while on the court?
 This player was Willy Hernangomez of the New Orleans Pelicans. Luke Doncic was number 4 on this list.
+
+Who played the most minutes?
+Kevin Durant of the Brooklyn Nets playued the most minutes in the playoffs at 44 MPG.
 
 # Development Environment
 
@@ -27,7 +29,6 @@ I primarily used Python and MySQL. I originally created the program using the py
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 https://www.nbastuffer.com/2021-2022-nba-player-stats/
 https://blog.mclaughlinsoftware.com/2021/12/12/read-csv-with-python/
 
