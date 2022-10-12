@@ -45,7 +45,7 @@ mycursor.execute("SELECT * FROM player")
 myresult = mycursor.fetchall()
 
 for x in myresult:
-  #print(x)
+  print(x)
 
 # Question number one. Who averaged the most points during the NBA playoffs this past year?
 # Looks like Luke Doncic of the Dallas Mavericks averaged the most points.
@@ -59,7 +59,16 @@ for x in myresult:
 
 # Who was used the most while on the floor?
 # According to the data, it was Willy Hernangomez. 4th was Luka Doncic.
-mycursor.execute("SELECT player_name,team,points_per_game FROM player ORDER BY points_per_game desc LIMIT 5")
+mycursor.execute("SELECT player_name,team,usage_percentage FROM player ORDER BY usage_percentage desc LIMIT 5")
+
+myresult = mycursor.fetchall()
+
+for x in myresult:
+  print(x)
+
+# Which NBA player averaged the most minutes during the NBA Playoffs?
+# Keving Durant of the Brooklyn Nets averaged the most minutes played
+mycursor.execute("SELECT player_name,minutes_played_per_game FROM player ORDER BY minutes_played_per_game desc LIMIT 10")
 
 myresult = mycursor.fetchall()
 
